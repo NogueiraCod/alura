@@ -74,3 +74,130 @@ body {
     font-family: var(--font-principal);
     font-weight: 400;
 }
+
+.container__secundario {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 151px 54px;
+}
+
+.container__secundario__texto{
+    display: flex;
+    flex-direction: column; 
+    width: 588px;
+    margin: 0 0 0 69px;
+    font-family: var(--font-principal);
+}
+
+.container__secundario__texto__titulo{
+    font-size: 48px;
+    margin: 0 0 8px 0;
+}
+.container__secundario__texto__texto{
+    font-size: 16px;
+    color: var(--cinza-secundario);
+}
+
+.container__terceira{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 226px 0px;
+    gap:70px;
+}
+
+.container__terceira__corpo{
+    width: 588px;
+}
+
+.container__terceira__corpo__texto{
+    font-family: 'inter';
+    color: var(--cinza-secundario);
+    font-size: 16px;
+}
+
+.container__terceira__corpo__botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--azul-botao);
+    width: 162px;
+    height: 56px;
+    border-radius: 8px;
+    font-family: 'inter';
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin: 16px 0 0 0;
+}
+
+.container__quarto{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'inter';
+    gap: 44px;
+    padding: 0 0 264px 54px;
+}
+.container__quarto__texto{
+    width: 588px;
+    gap: 8px;
+}
+.container__quarto__titulo{
+    font-size: 48px;
+}
+
+.container__quarto__texto__texto{
+    font-size:16px;
+    align-items: center;
+    color:var(--cinza-secundario);
+}
+
+.container__quinto{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'inter';
+    padding: 0 0 125px 54px;
+}
+
+.container__quinto__imgs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size:32px;
+    font-weight: 700;
+}
+
+.container__quinto__titulo{
+    font-size:48px;
+    margin: 40px;
+}
+
+.container__footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'inter';
+    gap:24px;
+}
+
+.container__footer__links{
+    display:flex;
+    color:var(--cinza-secundario);
+    text-decoration: none;
+    font-size:16px;
+    font-family: 'inter';
+    gap:16px;
+}
+
+.container__footer__direitos{
+    text-align: center; 
+    font-size: 14px;
+    width: 1200px;
+    color:var(--cinza-secundario);
+}
